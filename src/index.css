@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-  li {
-    @apply p-4 font-semibold text-lg hover:text-zinc-500 cursor-pointer active:text-blue-500
-  }
+    li {
+        @apply p-4 font-semibold text-lg hover:text-zinc-500 cursor-pointer active:text-blue-500;
+    }
 
-  html {
-    @apply text-zinc-800 font-sans
-  }
-
+    html {
+        @apply text-zinc-800 font-sans;
+    }
 }
